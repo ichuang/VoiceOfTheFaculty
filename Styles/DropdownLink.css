@@ -1,0 +1,63 @@
+ /* Dropdown Button */
+.dropbtn {
+  background-color: dimgrey;
+  color: white;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: dimgrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: grey;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: grey} 
+
+
+
+// select2 overrides
+
+
+
+.select2-selection__rendered {
+	vertical-align: middle;
+}
+.select2-container .select2-selection--single {
+    height: 50px !important;
+    line-height: 160% !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 160% !important;
+}
+
+.select2-selection__arrow {
+    height: 50px !important;
+}
+
+

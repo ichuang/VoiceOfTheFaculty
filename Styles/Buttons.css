@@ -1,0 +1,110 @@
+a.ResponsiveButton
+{
+	display: inline-block;
+	padding: 0.15em 0.8em;
+	border: 0.1em solid #FBEEC1;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing:  border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #659DBD;
+	background-color: #FBEEC1;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+a.SelectedResponsiveButton
+{
+	display: inline-block;
+	padding: 0.15em 0.8em;
+	border: 0.1em solid #FBEEC1;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing:  border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #659DBD;
+	background-color: #FFB5D0;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+a.ResponsiveButton:hover
+{
+	color: #FBEEC1;
+	background-color: #659BDB;
+}
+
+@media all and (max-width: 30em)
+{
+	a.ResponsiveButton{
+		display: block;
+		margin: 0.4em auto;
+	}
+}
+
+input.ResponsiveButton
+{
+	display: inline-block;
+	padding: 0.25em 0.8em;
+	border: 0.1em solid #FBEEC1;
+	margin: 0 0em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing:  border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #659DBD;
+	background-color: #FBEEC1;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+input.ResponsiveButton:hover
+{
+	color: #FBEEC1;
+	background-color: #659BDB;
+}
+
+input.UnResponsiveButton
+{
+	display: inline-block;
+	padding: 0.25em 0.8em;
+	border: 0.1em solid #FBEEC1;
+	margin: 0 0em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing:  border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #000000;
+	background-color: #FBEEC1;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+input.UnResponsiveButton:hover
+{
+	color: #FBEEC1;
+	background-color: #659BDB;
+}
+
+@media all and (max-width: 30em)
+{
+	input.ResponsiveButton{
+		display: block;
+		margin: 0.4em auto;
+	}
+}
+
+input
+{
+	background-color: Ivory;
+}

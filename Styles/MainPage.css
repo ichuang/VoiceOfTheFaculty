@@ -1,0 +1,141 @@
+body {
+	margin: 0px;
+//	height: 1000px;
+	font-family: Revolution,Helvetica,Arial,sans-serif;
+	font-size: 22pt;
+//	line-height: 160%;
+	vertical-align: top;
+//	background-image: linear-gradient(#4887B0, #95ABCD);
+	background-color: #95ABCD;
+}
+
+#MainPage {
+	width: 960px;
+	margin-left: auto ;
+	margin-right: auto ;
+	border: 0px;
+	padding: 0px;
+	spacing: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	color: Ivory;
+}
+
+table .MainTable {
+	width: 960px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.CenterMainContent {
+	max-width: 780px;
+	margin: auto;
+}
+
+#MainPage td {
+	padding: 0px;
+}
+
+.HourTable {
+	width: 100%;
+	td {
+		width: 200px;
+	}
+}
+
+a:link {
+	color: #EC583A;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #EC583A;
+	text-decoration: none;
+}
+
+.FooterRow {
+//	border-top: 3px solid #DE1B1B;
+}
+
+#dek {
+	position: absolute;
+	visibility: hidden;
+	z-index: 200;
+}
+
+.QuestionTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.QuestionTable th {
+	font-weight: bold;
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.FieldRowBug {
+	background-color: #EECCEE;
+	vertical-align: middle;
+}
+
+.FeaturedRow-1 {
+	background-color: #A5F095;
+	vertical-align: middle;
+}
+
+.FeaturedRow-2 {
+	background-color: #B5F095;
+	vertical-align: middle;
+}
+
+.OpenRow-1 {
+	background-color: #FFFF80;
+	vertical-align: middle;
+}
+
+.OpenRow-2 {
+	background-color: #FFFF98;
+	vertical-align: middle;
+}
+
+.ClosedRow-1 {
+	background-color: #EECCEE;
+	vertical-align: middle;
+}
+
+.ClosedRow-2 {
+	background-color: #D0D0D0;
+	vertical-align: middle;
+}
+
+.FieldLabel-Title {
+	width: 200px;
+	vertical-align: middle;
+}
+
+.FieldLabel-Description {
+	width: 550px;
+	vertical-align: middle;
+}
+
+.FieldLabel-Code {
+	width: 200px;
+	vertical-align: middle;
+}
+
+.FieldLabel-Value {
+	width: 200px;
+	vertical-align: middle;
+}
+
+.FieldLabel-ResourceValue {
+	width: 100px;
+}
+
+.FieldLabel-Comment {
+	width: 200px;
+	vertical-align: middle;
+}
+
